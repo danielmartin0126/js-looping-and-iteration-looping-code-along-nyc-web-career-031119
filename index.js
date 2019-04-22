@@ -11,7 +11,7 @@ function maybeTrue() {
 }
  
 function tailsNeverFails() {
-  i=0
+ let i=0
   while (maybeTrue()) {
     i++
   }
